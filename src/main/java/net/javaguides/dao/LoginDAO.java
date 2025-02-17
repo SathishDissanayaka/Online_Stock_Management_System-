@@ -16,7 +16,7 @@ public class LoginDAO {
         Class.forName("com.mysql.jdbc.Driver");
 
         try (Connection connection = DriverManager
-            .getConnection("jdbc:mysql://localhost:3306/stockdb", "root", "sahan");
+            .getConnection("jdbc:mysql://localhost:3306/stockdb", "root", "");
 
             // Step 2:Create a statement using connection object
             PreparedStatement preparedStatement = connection
