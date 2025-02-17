@@ -13,7 +13,7 @@ import net.javaguides.model.Category;
 public class CategoryDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/stockdb";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "sahan";
+	private String jdbcPassword = ""; //add the real password here.this is fake
 
 	private static final String INSERT_CATEGORY_SQL = "INSERT INTO categories" + "  (name, qty, level) VALUES " + " (?, ?, ?);";
 	private static final String SELECT_CATEGORY_BY_ID = "select id,name,qty,level from categories where id =?";
