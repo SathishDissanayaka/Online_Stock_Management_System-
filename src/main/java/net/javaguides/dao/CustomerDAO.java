@@ -13,7 +13,7 @@ import net.javaguides.model.Customer;
 public class CustomerDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/stockdb";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "sahan";
+		private String jdbcPassword = ""; //add the real password here.this is fake
 
 	private static final String INSERT_CUSTOMERS_SQL = "INSERT INTO customers" + "  (name, address, email, phone) VALUES " + " (?, ?, ?, ?);";
 
