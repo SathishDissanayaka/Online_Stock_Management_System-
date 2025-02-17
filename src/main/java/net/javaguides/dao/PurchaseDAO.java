@@ -14,7 +14,7 @@ import net.javaguides.model.Supplier;
 public class PurchaseDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/stockdb";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "sahan";
+	private String jdbcPassword = ""; //add the real password here.this is fake
 
 	private static final String INSERT_PURCHASE_SQL = "INSERT INTO purchase_products" + "  (products, supplier, qty, date) VALUES "
 			+ " (?, ?, ?, ?);";
