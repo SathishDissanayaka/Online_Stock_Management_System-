@@ -16,7 +16,6 @@ public class Customer {
 		this.phone = phone;
 	}
 
-
 	public Customer(int id, String name, String address, String email, String phone) {
 		super();
 		this.id = id;
