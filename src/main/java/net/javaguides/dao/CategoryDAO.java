@@ -19,7 +19,7 @@ public class CategoryDAO {
 	private static final String SELECT_ALL_CATEGORIES = "select * from categories";
 	private static final String DELETE_CATEGORIES_SQL = "delete from categories where id = ?;";
 	private static final String UPDATE_CATEGORIES_SQL = "update categories set name = ?,qty= ?, level= ? where id = ?;";
-
+	
 	public CategoryDAO() {
 	}
 
